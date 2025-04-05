@@ -7,9 +7,14 @@
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/mcu/mcuapp_firmware.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/mcuapp_firmware.txt
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.lineage
+
 # Overlay
 PRODUCT_PACKAGES += \
     Frameworks-RPDuo-Overlay \
+    LineageSDK-RPDuo-Overlay \
     Settings-RPDuo-Overlay
 
 # Soong namespaces
