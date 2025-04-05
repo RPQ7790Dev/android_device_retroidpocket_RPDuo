@@ -3,9 +3,14 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.lineage
+
 # Overlay
 PRODUCT_PACKAGES += \
     Frameworks-RPDuo-Overlay \
+    LineageSDK-RPDuo-Overlay \
     Settings-RPDuo-Overlay
 
 # Soong namespaces
