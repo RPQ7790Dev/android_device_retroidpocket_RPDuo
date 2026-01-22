@@ -3,6 +3,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Overlay
+PRODUCT_PACKAGES += \
+    Frameworks-RPDuo-Overlay \
+    Settings-RPDuo-Overlay
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
