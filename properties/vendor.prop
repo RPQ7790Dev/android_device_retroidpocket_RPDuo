@@ -1,2 +1,5 @@
 # Bluetooth
 bluetooth.device.default_name=Retroid Pocket Duo
+
+# Graphics
+ro.surface_flinger.game_default_frame_rate_override=120
