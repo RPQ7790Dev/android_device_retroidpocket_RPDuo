@@ -8,6 +8,9 @@ DEVICE_PATH := device/retroidpocket/RPDuo
 # Include the common OEM chipset BoardConfig.
 include device/retroidpocket/cq7790s-common/BoardConfigCommon.mk
 
+# DTBO
+TARGET_MERGE_DTBOS_WILDCARD := *retroid-pocket-duo-overlay*
+
 # Properties
 DEVICE_PROPERTIES_PATH := $(DEVICE_PATH)/properties
 TARGET_VENDOR_PROP += $(DEVICE_PROPERTIES_PATH)/vendor.prop
