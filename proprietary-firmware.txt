@@ -1,6 +1,9 @@
 # All firmware images below are extracted from the release mentioned in proprietary-files.txt
 
-abl.elf:abl.img;AB
+# Exceptions:
+# abl.img: from Odin3.20260204.171202
+abl.elf:abl.img;AB|325ccc96ae9c58ea7b4390312c79c9bbd7263810
+
 aop.mbn:aop.img;AB
 aop_devcfg.mbn:aop_config.img;AB
 BTFM.bin:bluetooth.img;AB
